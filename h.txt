@@ -1,0 +1,149 @@
+the back-end DBMS is MySQL
+web application technology: Apache 2.2.29, PHP 5.3.29
+back-end DBMS: MySQL 5.0.12
+
+
+Database: balboast_gkgcart
+[89 tables]
++-----------------------+
+| amanu                 |
+| categories            |
+| clients               |
+| components            |
+| config                |
+| config_groups         |
+| customers             |
+| form_data             |
+| form_fields           |
+| forms                 |
+| geo                   |
+| groups                |
+| item_amanu            |
+| item_cat              |
+| item_files            |
+| item_files_customer   |
+| item_options          |
+| item_options_linked   |
+| item_options_values   |
+| item_related          |
+| item_thread           |
+| item_thread_old       |
+| items                 |
+| items_addphoto        |
+| items_item_files      |
+| items_packages        |
+| languages             |
+| logs                  |
+| mailinglist           |
+| mailinglist_cat       |
+| mailinglist_members   |
+| manu                  |
+| news                  |
+| news_cat              |
+| news_news_cat         |
+| orders                |
+| photos                |
+| photos_cat            |
+| photos_static         |
+| pic_gallery           |
+| ship_prices           |
+| ship_zones            |
+| sites                 |
+| sites_components      |
+| specials              |
+| specials_items        |
+| specials_type         |
+| specs                 |
+| specs_values          |
+| sphider_categories    |
+| sphider_domains       |
+| sphider_keywords      |
+| sphider_link_keyword0 |
+| sphider_link_keyword1 |
+| sphider_link_keyword2 |
+| sphider_link_keyword3 |
+| sphider_link_keyword4 |
+| sphider_link_keyword5 |
+| sphider_link_keyword6 |
+| sphider_link_keyword7 |
+| sphider_link_keyword8 |
+| sphider_link_keyword9 |
+| sphider_link_keyworda |
+| sphider_link_keywordb |
+| sphider_link_keywordc |
+| sphider_link_keywordd |
+| sphider_link_keyworde |
+| sphider_link_keywordf |
+| sphider_links         |
+| sphider_pending       |
+| sphider_query_log     |
+| sphider_site_category |
+| sphider_sites         |
+| sphider_temp          |
+| text                  |
+| thread                |
+| thread_gel            |
+| thread_items          |
+| ups                   |
+| ups_packaging         |
+| ups_pickup            |
+| ups_service           |
+| ups_units             |
+| users                 |
+| users_access          |
+| users_groups          |
+| users_spu             |
+| users_spu_values      |
+| zones                 |
++-----------------------+
+
+
+Database: balboast_gkgcart
+Table: users_access
+[2 columns]
++---------+---------+
+| Column  | Type    |
++---------+---------+
+| site_id | int(11) |
+| user_id | int(11) |
++---------+---------+
+
+Database: balboast_gkgcart
+Table: users
+[7 columns]
++----------+-------------+
+| Column   | Type        |
++----------+-------------+
+| active   | tinyint(4)  |
+| email    | varchar(50) |
+| id       | int(11)     |
+| name     | varchar(50) |
+| password | varchar(50) |
+| power    | tinyint(4)  |
+| username | varchar(50) |
++----------+-------------+
+
+
+   
+
+
+Database: balboast_gkgcart
+Table: users
+[3 entries]
++--------+----------------------+----+----------------+---------------+-------+-
+---------+
+| active | email                | id | name           | password      | power |
+username |
++--------+----------------------+----+----------------+---------------+-------+-
+---------+
+| 1      | support@gkg.net      | 13 | GKG Admin      | thLkIqydgHMx2 | 5     |
+admin    |
+| 1      | balboa@aol.com       | 15 | Lee Caroselli  | thgt.iHOK.TBk | NULL  |
+Lee      |
+| 1      | kcaroselli@dc.rr.com | 17 | Dawn Caroselli | tha5SYEk4lBlI | NULL  |
+Dawn     |
+
+
+
+
+
